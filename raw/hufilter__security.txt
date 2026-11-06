@@ -1,0 +1,17 @@
+!
+! This section contains rules for blocking scam, phishing, malicious, and other security-threatening sites.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+! Rules should follow this format:
+! ||domain.com^$document
+!
+
+! Imported from https://github.com/FakesiteListHUN/FakeWebshopListHUN/blob/50836b104948a76f4344270e8baa954bc562fca9/fakewebshoplist#L153C1-L162C11
+||aliexpress.hu^$document
+||aliexpressz.hu^$document
+||azsiacentrum.hu^$document
+||kinaiwebaruhaz.hu^$document
+||maplin.hu^$document
+||mikroelektronik.hu^$document
+||petpoolalarm.com^$document
+||sexmeup.hu^$document
+||magyarszo.com^$document

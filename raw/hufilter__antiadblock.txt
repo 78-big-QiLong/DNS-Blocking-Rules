@@ -1,0 +1,42 @@
+!
+! This section file contains rules for bypassing anti-adblock protections.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!
+
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
+dizajnkonyha.hu##body > div[data-elementor-type="footer"] ~ div[id][class*=" "]
+
+rtl.hu##.adblock-confirm
+
+777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
+777blog.hu##div#rechtangle.widget:nth-of-type(5)
+onvideo.hu###detect + .wrapper
+
+hazipatika.com##.a2blckLayer
+! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
+! https://github.com/AdguardTeam/AdguardFilters/issues/126709
+videa.hu,videaloop.hu#@#.adBanner
+videa.hu,videaloop.hu##.top-video-container-banner
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/223700
+media1.hu#@#.ad-box:not(#ad-banner):not(:empty)
+
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
+! https://github.com/AdguardTeam/AdguardFilters/issues/113211
+@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
+@@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
+
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
+@@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
+! https://github.com/AdguardTeam/AdguardFilters/issues/139716
+@@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
+@@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
+@@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
+@@||meszotar.hu/scripts/advertising.js$script
+||onlinestream.live/js/adb.js$script

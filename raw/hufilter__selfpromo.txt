@@ -1,0 +1,99 @@
+!
+! This section file contains rules for blocking self-promotion and donation requests.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!
+
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
+! Donate box
+112press.hu###right > .box + .box
+24.hu##.m-donationBottomLine
+24.hu##[class*=szponzibox]
+24.hu##[id^="remp-banner-"]
+ado.hu###custom_html-8
+ado.hu##a[href^="https://bit.ly"]
+alza.hu##.info-message
+alza.hu##.ear
+alza.hu##.private-labels
+alza.hu##.trust-bubble--hungary
+alza.hu##[class^="brandingEars"]
+automotor.hu##[data-foo="cikk_jobbhasab_"]
+automotor.hu##[data-foo="fooldali_jobbhasab_"]
+bestmarkt.hu##.ddModal
+blikk.hu##.google-news
+blikk.hu##.basicCreative.blockWrapper
+bookline.hu##.l-container--full
+bookline.hu##a.c-skin--left
+bookline.hu##a.c-skin--right
+drogriporter.hu###custom_html-18
+drogriporter.hu###custom_html-20
+emag.hu##.js-banner-carousel
+emag.hu##.wd-banners
+emag.hu##.wd-banners-2
+emag.hu##.sell-with-emag
+emag.hu##.download-app-container
+foodora.hu##.joker-banner-top
+foodora.hu##.joker-swimlane
+hang.hu##.widget-tamogatas-box
+hvg.hu##.embedly-card
+! https://github.com/hufilter/hufilter/issues/252
+index.hu##.keretes-position-cimlap_mindekozben:has(> [id^="ado-"])
+infostart.hu##.article>.live-wrapper
+ingatlan.com##.estimate-promo-closable
+ingatlan.com###estimate-promo
+ingatlan.com###searcher-pro-banner
+kifli.hu##div[data-test="tradeBanners_bannerSlider"]
+kifli.hu##div[class="absolute inset-0 z-0 transition-opacity duration-200"] > picture > img[src*="essentials/banner"]
+kifli.hu##article > div[class="u-flex-center m-200"]
+kifli.hu##div[data-gtm-section="app-promo"]
+magyarnarancs.hu##.d-lg-block.d-none.position-relative.ujsag-wrapper.container > .ujsag
+magyarnarancs.hu##.bg-yellow.text-left
+magyarnarancs.hu##[href^="https://magyarnarancs.us7.list-manage.com/subscribe"]
+magyarnarancs.hu##.text-box
+mandiner.hu##.subscription-box
+mandiner.hu##man-header-magazine
+mandiner.hu##man-newsletter-diverter-card
+napiszex.hu###logo + .partner
+ncore.pro###pager_top > .premium
+! https://github.com/hufilter/hufilter/issues/254
+onroad.hu##a[href="https://onroad.hu/tamogatas"]
+origo.hu##app-article-page app-sidebar origo-branding-box
+origo.hu##app-article-page app-sidebar origo-newsletter-box
+origo.hu##app-article-page app-sidebar origo-social-media-box
+origo.hu##app-sport-article-page app-sidebar origo-branding-box
+origo.hu##app-sport-article-page app-sidebar origo-newsletter-box
+origo.hu##app-sport-article-page app-sidebar origo-social-media-box
+origo.hu##origo-newsletter-box
+pestisracok.hu###head-wrap + .code-block
+pestisracok.hu##.wprt-container a[href="https://www.facebook.com/pestisracok.pstv"]
+! Article recommender in the forum
+prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
+prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:-abp-has(> h4:-abp-contains(/(Hirdetés|[Hh].*i.*r.*d.*e.*t.*é.*s)/)):-abp-has(a[href*="/fiok/premium.php"])
+prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu###header-network > li:has(a[href*="/fiok/premium.php"])
+telex.hu###minutes-campaign-container
+telex.hu###minutes-campaign-container-mini
+telex.hu##.fb-box
+telex.hu##.kari
+telex.hu##.modal--overlay
+telex.hu##.modal--tax
+telex.hu##.support
+telex.hu##.support-box
+telex.hu##.support-link
+telex.hu##.tax-widget
+telex.hu##.telex-donate
+telex.hu##.telex-links
+telex.hu###article-endbox-campaign-content
+telex.hu##campaign-container
+totalcar.hu###bannerHeaderLink
+tudatosvasarlo.hu##.adlanes
+tudatosvasarlo.hu##.hi-ftamogass
+tudatosvasarlo.hu##.hi-header-tamogass
+tudatosvasarlo.hu##.hi-tamogass-banner
+vezess.hu##.katalog
+vezess.hu##.wpb_wrapper > a
+szegeder.hu##.szegeder-tax1-wrap
+glamour.hu##.magazine.position-relative.d-none.d-md-flex.my-5
+glamour.hu##.newsletterImage
+atlatszo.hu##.banner-menu-alatt
+atlatszo.hu##a[class*="banner"] > img[class*="bl"]

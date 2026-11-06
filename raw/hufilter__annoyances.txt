@@ -1,0 +1,238 @@
+!
+! This section file contains rules for blocking annoying elements on websites, such as newsletter
+! subscription prompts, floating elements and so on.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!
+
+!-------------------------------------------------------------------------------!
+!------ Generic cosmetic filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
+hu###szechenyi2020
+hu###szechenyi2020-wrapper
+hu###szechenyi
+hu###szechenyi-logo
+hu###szechenyi-toggle
+hu###szechenyi_2020_logo
+hu###szechenyi-banner
+hu##.szechenyi2020-top-infoblokk
+hu##.sz2020-logo
+
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
+maszol.ro###app_banner
+! https://github.com/hufilter/hufilter/issues/737
+telekom.hu###frame-modals
+hellomagyar.hu##.ct-popup
+24.hu##.a-hirstartRecommender
+24.hu##.fb-exit-popup-container
+24.hu##.m-donationBottomLine
+24.hu##.widget-mini-article
+24.hu###overlay_readers_letter
+24.hu###stickyHomePageRecommender
+24.hu###webPushPopup
+adozona.hu##.floating-help-wrapper
+alza.hu##.mailingActionC
+agrarszektor.hu##.flyout
+antikvarium.hu###subscribe-modal
+antikvarium.hu##.competition
+atv.hu###szechenyi-container
+autosjog.hu##p + center:has(iframe[data-src*="facebook"])
+babanet.hu###popupajanlo
+bankmonitor.hu##main + .ok-prerender
+baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-article-subscription-box
+baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-newsletter-modal
+bkk.hu##.sztp-infoblokk-cnt
+blikk.hu###articleOfferFlag
+blikk.hu###pe_confirm
+blikk.hu###pe_confirm_optin_6
+blikk.hu##.leavingPopupLayer
+blikkruzs.blikk.hu###pe_confirm_optin_1
+blog.hu##[id*="cp_popup"]
+bonuszbrigad.hu###newASZFLayer
+bpiautosok.hu###onesignal-bell-container
+bpiautosok.hu###onesignal-slidedown-container
+bpiautosok.hu##.extpp-container
+budapestikozmuvek.hu###banner
+cartourmagazin.hu###pa-push-notification-subscription
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu###web-push-popup
+civishir.hu##.cookie-box-cnt
+civishir.hu##.infobar-cnt
+csaladinet.hu###cikkajanlo
+csodahelyek.hu###elementor-popup-modal-41687
+! https://github.com/hufilter/hufilter/issues/617
+dkv.hu###silktide-wrapper
+dkv.hu##[href="/ginop-palyazat"]
+drogriporter.hu###gform_widget-2
+economx.hu##.mobilsticky
+egeszsegkalauz.hu###articleOfferFlag
+! https://github.com/hufilter/hufilter/issues/248
+egeszsegkalauz.hu###pe_confirm_optin_1
+elemzeskozpont.hu###sliding-popup
+epiteszforum.hu##div.supportModal
+erzsebetvaros.hu###szechenyiImage
+esport1.hu###article-recommend-popup
+femina.hu###femina-shop-ajanlo-slider
+femina.hu##.cikk-torzs [data-miniapp-id]:has(.lapozgato-ajanlo)
+forbes.hu##.crp_related
+fressnapf.hu##.grey-popup-layer
+g7.hu###box-footer-newsletter
+glamour.hu##.leavingPopupLayer
+glamour.hu###articleOfferFlag
+glamour.hu###pe_confirm_optin_6
+gsplus.hu,pcwplus.hu###web-push-popup
+gumiszoba.com###facebook-likebox-8
+gyartastrend.hu##div[id^="jqueryFloating"]
+harmonet.hu###ajanlo_box_ah
+hasznaltauto.hu##.local-content
+hazipatika.com##.fb-exit-popup-container
+hazipatika.com###facebook-sharebar
+! https://github.com/hufilter/hufilter/issues/256
+hazipatika.com###webaruhaz-ajanlo
+hirado.hu##.hover_bkgr_fricc:has(.facebookPopupCloseButton)
+hvg.hu##.hvg_push
+iho.hu##.social-icon
+iho.hu##.newsletter-box
+! adbook nagger
+iho.hu##.article-text > p
+index.hu###partner-site-popup
+infostart.hu##.am_targetvideo_container
+infostart.hu##.flyout
+infostart.hu##.notification-popup
+infostart.hu###ajanlo
+infostart.hu###sitemodal:has(.fb-button)
+infostart.hu##div[data-qa="oil-Layer"]
+ingatlan.com###nps-form
+keol.hu###social
+keol.hu##div.subscribe_module
+keol.hu##div[class="fb-like fb_iframe_widget"]
+kisalfold.hu###nap_ajanlata
+kisalfold.hu##div.endless-shared-area
+kiskegyed.hu###articleOfferFlag
+kre.hu##.infoblokszechenyi
+life.hu##.email-under-article
+life.hu##.facebook-layer-box
+life.hu##.newsletter-layer
+life.hu##[data-module-name="hirlevel"]
+life.hu###beuszoAjanlo
+life.hu###floating-recommendation
+magyarnemzet.hu##.newsletter-box
+! annyoing large popup after opening the page
+mandiner.hu##app-calendar
+mandiner.hu##app-facebook-popup
+mandiner.hu##app-newsletter-popup
+mavcsoport.hu,police.hu###ikop-logo
+media1.hu##.elementor-popup-modal
+medicalonline.hu###medical_newsletter
+milestone66.hu,reformsziget.hu###hud
+mindmegette.hu###portfolioEzekIsErdekelhetnek
+mindmegette.hu###recipeAndRelateds > h2.noprint
+moly.hu###sticky
+moly.hu##.b336
+moly.hu###leftgate
+moly.hu###rightgate
+moly.hu##.skip_second
+! https://github.com/hufilter/hufilter/issues/363
+myonlineradio.hu##[src^="/public/img/efi/"]
+! https://github.com/hufilter/hufilter/issues/427
+myonlineradio.hu##.fb-page-cont
+neuzer.hu###szechenyi-fix
+nice.hu##div#show_news_box
+nlc.hu##.m-pcPromoArticlePointsLayer
+nlc.hu##.m-pcPromoFooterLayer
+nlc.hu##div.m-articleStickySocial
+nlc.hu##div.m-breakingLayer
+noizz.hu###articleOfferFlag
+! https://github.com/hufilter/hufilter/issues/254
+onroad.hu###slidebox
+origo.hu##.mw-allow-notification-dialog
+origo.hu##.newsletter-layer
+origo.hu##div.facebook-layer-box
+paleomedicina.com###kpopup
+pannonrtv.com###sliding-popup
+patika-akcio.hu##.patika-szechenyi-2020
+patika-akcio.hu##.patika-szechenyi-terv
+pcforum.hu##.slidein.popup.closeablenotification.scripted
+pcforum.hu###pushsubscriptionwnd
+pcforum.hu##div[class="fromtop shown"][data-clickhooked]
+pcguru.hu##.floating-box
+penzcentrum.hu###ajanlo
+penzcentrum.hu###recommend
+pestisracok.hu###onesignal-bell-container
+pestisracok.hu###onesignal-slidedown-container
+piacesprofit.hu###cikkertesito-reg-form
+player.hu##.ui-dialog[aria-describedby="newsletter-modal"]
+player.hu##.ui-widget-overlay.ui-front
+player.hu##[aria-describedby="dialog-welcome"]
+player.hu##[class*="c_banner"]
+port.hu##.introjs-helperLayer
+port.hu##.introjs-overlay
+port.hu##.introjs-tooltip
+portfolio.hu##.notification-popup
+portfolio.hu###BlockCikkajanlo
+privatbankar.hu##.mfor_cikk_beuszo
+privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
+profitline.hu###fb_like_modal
+prog.hu,pcforum.hu###subscribepopuppanelalign
+prog.hu##.popup
+prog.hu##.frame
+prohardver.hu###notif-modal
+propeller.hu##.popup
+raketa.hu##.ui-widget-overlay
+raketa.hu##[aria-describedby="newsletter-modal"]
+ripost.hu##.newsletter-box
+rtl.hu##.newsletter-modal
+semmelweis.hu###palyazat-float
+starity.hu###upprev_box
+startlap.hu###push-notification
+szabadfold.hu##div.fb_shares
+szeged365.hu##.active.popup-screen
+szeged365.hu##.popup-box
+! https://github.com/hufilter/hufilter/issues/5
+szepsegbroker.hu###popup
+szeretlekmagyarorszag.hu###rovatpromo
+szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
+telex.hu###modal--umbrella
+telex.hu###modal--you
+telex.hu###modal--tax26--bottom
+telex.hu##.modal--3000__container
+telex.hu##.tax-widget__container
+totalcar.hu##.header-tk-ajanlo
+twn.hu###popunder_featured
+ugyeszseg.hu##.et_pb_fullwidth_image
+vg.hu##.newsletter-box
+! https://github.com/hufilter/hufilter/issues/250
+vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
+wmn.hu##a[href="https://wmn.hu/hirlevel-feliratkozas/"]
+idokep.hu##.mitVegyekFelBox > .haute-couture
+
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters (with Extended CSS) --------------------------!
+!-------------------------------------------------------------------------------!
+
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
+/ajax.php?action=offerblogcikk$domain=ittjartam.hu
+/assets-new/js/calculator-widget-init.js$script,domain=money.hu
+/assets/js/bioep.min.js$script,domain=penzcentrum.hu
+/infoblok-szechenyi-2020.png$image,domain=kre.hu
+/items/jquery.floating_popup*.js^$script,domain=szepsegbroker.hu
+/js/push.js$script,domain=infostart.hu
+/newsletter.js$script,domain=tudatosvasarlo.hu
+/subscribePopup.js$script,domain=roadster.hu
+/szechenyi-2020-logo-bottom.png$image,domain=antikvarium.hu
+/szechenyi-2020-strukturalis-alap-logo.png$image,domain=unideb.hu
+/szechenyi_2020_infoblokk_float.png$image,domain=semmelweis.hu
+/szechenyilogo.css$stylesheet,domain=bme.hu
+/szt-plusz.jpeg$image,domain=patika-akcio.hu
+/szt2020_logo.png$image,domain=patika-akcio.hu
+/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script,domain=itthonrolhaza.hu
+/yett.min.js$script,domain=mavcsoport.hu
+||widget.moneycdn.com/hitelintezo/moneycheckwidget.min.js$script,domain=ingatlan.com
+||optimonk.com^$third-party,domain=mandiner.hu
+
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
+||chatrobot.mia.gov.hu^
